@@ -2,7 +2,9 @@
 
 🌐 👉 [Web Assistant](https://ladooniani.github.io/Bot-Web-Assistant/)
 
-🌏 📝 [Web Assistant code](https://github.com/ladooniani/Bot-Web-Assistant/blob/main/terbinari/js/terbinari_assistent.js)
+🌏 📝 [Web Assistant code/ terbinari_assistent.js](https://github.com/ladooniani/Bot-Web-Assistant/blob/main/terbinari/js/terbinari_assistent.js)
+   📝 [Web Assistant code/ index.html](https://github.com/ladooniani/Bot-Web-Assistant/blob/main/index.html)
+   📝 [Web Assistant code/ terbinari.css](https://github.com/ladooniani/Bot-Web-Assistant/blob/main/terbinari/css/terbinari.css)
 
 🔍 Plain JavaScript logic and UI model of Interactive dynamic dialog instructing and data processing control with single-field chatbot interface provides guided, sequential data entry and storage to simplify, minimize, modernize and speed up routine in the user interface, just make long registration query form fun =) 😏
 
