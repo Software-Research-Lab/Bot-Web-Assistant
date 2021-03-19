@@ -773,7 +773,7 @@ function ShowUserData() {
 function about() {
   scrollElmt(0);
   var copyright =
-    " Lado Oniani, TAI Lab. Research and technology development project. All Rights Reserved";
+    " Lado Oniani, TAI Lab. All Rights Reserved";
   var cr = "Copyright © 2016-" + year + copyright;
   passStep(
     p31,
