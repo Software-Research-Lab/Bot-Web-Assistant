@@ -111,6 +111,7 @@ var empty_list = [];
 var countries = [];
 var language = [];
 var monthes = [];
+var mainPage = "index.html"; /// bot.php
 
 /* Text data */
 
@@ -602,7 +603,7 @@ function ifOutputUndefined(var1) {
 $(document).keypress(function (e) {
   if (e.which == 13 && logOrReg != 3) {
     if (logOrReg == 0 && quesCount == 2) {
-      document.location = "bot.php"; /// bot.html
+      document.location = "index.html"; /// bot.html
     } else {
       bot();
     }
@@ -642,7 +643,7 @@ $("#logBtn").click(function () {
     LocalStorageReset();
   }
   if (logOrReg == 0 && quesCount == 2) {
-    document.location = "bot.php"; /// bot.html
+    document.location = mainPage;
   } else {
     bot(uname);
   }
@@ -915,7 +916,7 @@ function pleaseInsertVal(var1, var2, var3) {
 /*Output response */
 function reqQues(var1, var2, var3) {
   if (quesCount == 0 && output == undefined) {
-    document.location = "https://terbinari.tech/bot.php"; /// githubpage/bot.html
+    document.location = "https://ladooniani.github.io/Bot-Web-Assistant/" + mainPage; /// githubpage/bot.html
   } else {
     output.innerHTML = var1;
     document.getElementById(var2).value = "";
