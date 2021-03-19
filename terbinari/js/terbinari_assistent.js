@@ -780,7 +780,7 @@ function about() {
     "input",
     p32 +
       cr +
-      "<br><br><a href='https://github.com/ladooniani/Terbinari-Web-Assistant'>Terbinari Web Assistant</a>"
+      "<br><br><a href='https://github.com/ladooniani/Bot-Web-Assistant'>Terbinari Web Assistant</a>"
   );
 }
 
