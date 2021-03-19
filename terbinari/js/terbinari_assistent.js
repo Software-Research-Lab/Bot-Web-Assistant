@@ -277,7 +277,7 @@ function bot(var1) {
       } else if (quesCount == 10) {
         passFz(0);
         if (confirmator != 0) {
-          autocomplete(document.getElementById("input"), language);
+          autocomp(1); //   autocomplete(document.getElementById("input"), language);
           loopIterIncr();
           passStep(p10, "input", p57); /// Ok! Choose your language!
           GenderChoiseUI(0);
@@ -289,14 +289,14 @@ function bot(var1) {
         passFz(0);
         if (confirmator != 0) {
           loopIterIncr();
-          autocomplete(document.getElementById("input"), countries);
+          autocomp(0); //  autocomplete(document.getElementById("input"), countries);
           passStep(p10, "input", p58); /// Ok! Choose your country!
           changeInputType(12);
         } else if (confirmator == 0) {
           reset_break(p13, "input", p33);
         }
       } else if (quesCount == 12) {
-        autocomplete(document.getElementById("input"), empty_list);
+        autocomp(3); // autocomplete(document.getElementById("input"), empty_list);
         passFz(0);
         if (confirmator != 0) {
           loopIterIncr();
@@ -772,8 +772,7 @@ function ShowUserData() {
 
 function about() {
   scrollElmt(0);
-  var copyright =
-    " Lado Oniani, TAI Lab. All Rights Reserved";
+  var copyright = " Lado Oniani, TAI Lab. All Rights Reserved";
   var cr = "Copyright © 2016-" + year + copyright;
   passStep(
     p31,
@@ -916,7 +915,8 @@ function pleaseInsertVal(var1, var2, var3) {
 /*Output response */
 function reqQues(var1, var2, var3) {
   if (quesCount == 0 && output == undefined) {
-    document.location = "https://ladooniani.github.io/Bot-Web-Assistant/" + mainPage; /// githubpage/bot.html
+    document.location =
+      "https://ladooniani.github.io/Bot-Web-Assistant/" + mainPage; /// githubpage/bot.html
   } else {
     output.innerHTML = var1;
     document.getElementById(var2).value = "";
@@ -1554,6 +1554,22 @@ function colorState(val1) {
       "background-color": "yellow",
       "border-color": "#yellow",
     });
+  }
+}
+
+//autocomp();
+function autocomp(x) {
+  if (x == 0) {
+    loadStr(2);
+    autocomplete(document.getElementById("input"), countries);
+  } else if (x == 1) {
+    loadStr(3);
+    autocomplete(document.getElementById("input"), language);
+  } else if (x == 2) {
+    loadStr(4);
+    autocomplete(document.getElementById("input"), monthes);
+  } else if (x == 3) {
+    autocomplete(document.getElementById("input"), empty_list);
   }
 }
 
