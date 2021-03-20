@@ -1,7 +1,7 @@
 /*
 Name:           Web Assistant
 Author:         Lado Oniani (Logic concept, algorithm, programming)
-Copyright (C) 2016-2020 Lado Oniani, TAI Lab. All Rights Reserved     
+Copyright (C) 2016-2021 Lado Oniani, TAI Lab. All Rights Reserved     
 Written by Lado Oniani <ladooniani@gmail.com>, github.com/ladooniani
 https://ladooniani.github.io/Bot-Web-Assistant/
 https://github.com/ladooniani/Bot-Web-Assistant
