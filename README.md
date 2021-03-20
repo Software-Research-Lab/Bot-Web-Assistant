@@ -10,7 +10,7 @@
 
 ✔️ Code demonstrates dummy logic of interactive registration guiding with imitation of data processing without backend request, such as recording user data to database, checking of a username and email availability, or sending verification email.
 
-⭐ If you find the Web Assistant login/registration bot logic useful for your project, be free to use it with your backend, edit or modify code on your need and support the project by keeping copyright information link to the source repository as provided, or reference according to your user interface or public post context.
+⭐ If you find the Web Assistant login/registration bot logic useful for your project, be free to use it with your backend, edit or modify code on your need and support the project by keeping copyright information link to the source repository as provided, or reference according to your user interface or public post context. 👌
 
 ## Source 
 
