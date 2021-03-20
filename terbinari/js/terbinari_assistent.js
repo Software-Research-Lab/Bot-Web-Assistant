@@ -485,8 +485,6 @@ function Assign(s) {
   p74 = d + s[75] + b;
   p76 = d + s[76] + b;
 
-  console.log(p60);
-
   firstQues(p33);
 }
 
