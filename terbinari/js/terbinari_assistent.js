@@ -962,7 +962,6 @@ function checkEmailValidation(inputEmail) {
 function emailValidate(email) {
   const rgx = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   var emailValidate = rgx.test(String(email).toLowerCase());
-  console.log("Email validation: " + emailValidate);
   return emailValidate;
 }
 
@@ -1492,7 +1491,6 @@ function LoginAnswer(
   colorState(1);
   hideInput();
   LocalStorageSet(var1);
-  console_output("LOC: " + var1);
   logged = 1;
   quesCount = 0;
 }
@@ -1504,12 +1502,12 @@ function doYouWantReg() {
 /* Local Storage Set/Get */
 function LocalStorageSet(var1) {
   localStorage.setItem("storageName", var1);
-  console_output("Local storage value: " + var1);
+  //console_output("Local storage value: " + var1);
 }
 
 function LocalStorageGet() {
   locVal = localStorage.getItem("storageName");
-  console_output("Logged in user value: " + locVal);
+  //console_output("Logged in user value: " + locVal);
 }
 
 function LocalStorageReset() {
