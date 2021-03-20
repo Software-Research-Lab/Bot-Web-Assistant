@@ -8,8 +8,8 @@
 
 ## Source 
 
-📝 [terbinari_assistent.js](https://github.com/ladooniani/Bot-Web-Assistant/blob/main/terbinari/js/terbinari_assistent.js) 
+📄 [terbinari_assistent.js](https://github.com/ladooniani/Bot-Web-Assistant/blob/main/terbinari/js/terbinari_assistent.js) 
 
-📝 [index.html](https://github.com/ladooniani/Bot-Web-Assistant/blob/main/index.html)
+📄 [index.html](https://github.com/ladooniani/Bot-Web-Assistant/blob/main/index.html)
 
-📝 [terbinari.css](https://github.com/ladooniani/Bot-Web-Assistant/blob/main/terbinari/css/terbinari.css)
+📄 [terbinari.css](https://github.com/ladooniani/Bot-Web-Assistant/blob/main/terbinari/css/terbinari.css)
