@@ -931,11 +931,52 @@ function delayedQuestion() {
 
 /* Password validation */
 var myInput = document.getElementById("input");
+
+function checkEmailValidation(inputEmail) {
+  if (quesCount == 5) {
+    var emailValid = emailValidate(inputEmail);
+    var at = inputEmail.includes("@");
+    var dot = inputEmail.includes(".");
+
+    if (emailValid == true) {
+      document.getElementById("output").innerHTML = d + "Ok, email valid!" + b;
+      passValid = 0;
+    } else if (emailValid == false) {
+      var dinaSent = "";
+      if (at == true && dot == true) {
+        dinaSent = "Email format requiers domain name";
+      } else if (at == false && dot == false) {
+        dinaSent =
+          "Email format requiers at sign, email service, dot and domain name";
+      } else if (at == true && dot == false) {
+        dinaSent = "Email format requiers email service, dot and domain name";
+      } else if (at == false && dot == true) {
+        dinaSent =
+          "Email format requiers at sign, email service and domain name";
+      }
+      passValid = 1;
+      document.getElementById("output").innerHTML = d + dinaSent + b;
+    }
+  }
+}
+
+/* Email format validation */
+function emailValidate(email) {
+  const rgx = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  var emailValidate = rgx.test(String(email).toLowerCase());
+  console.log("Email validation: " + emailValidate);
+  return emailValidate;
+}
+
+/* Password and email validation */
 myInput.onkeyup = function () {
   var lowerCaseLetters = /[a-z]/g;
   var upperCaseLetters = /[A-Z]/g;
   var numbers = /[0-9]/g;
   var note1, note2, note3, note4;
+
+  /* email string validation */
+  checkEmailValidation(myInput.value);
 
   if (passPhase == 1) {
     if (quesCount < 7) {
@@ -1315,6 +1356,7 @@ function checkEmail(Email) {
     alert("Please enter username.");
   } else {
     procCheckEmailRes(0);
+
     console.log(
       "checkEmail backend request ajax function checks if email avalible, alredy exist or invalid"
     );
@@ -1613,12 +1655,7 @@ function autocomplete(inp, arr) {
     } else if (e.keyCode == 38) {
       currentFocus--;
       addActive(x);
-    } /*else if (e.keyCode == 13) {
-          e.preventDefault();
-          if (currentFocus > -1) {
-            if (x) x[currentFocus].click();
-          }
-        }*/
+    } 
   });
   function addActive(x) {
     if (!x) return false;
