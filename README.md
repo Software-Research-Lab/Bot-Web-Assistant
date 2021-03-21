@@ -10,7 +10,7 @@
 
 ⭐ If you find the Web Assistant login/registration bot logic useful for your project, be free to use it with your backend, edit or modify code on your need and support the project by keeping copyright information link to the source repository as provided, or reference according to your user interface or public post context.
 
-## Web Assistant
+## Web Assistant demo
 
 🌐 👉 [Web Assistant](https://ladooniani.github.io/Bot-Web-Assistant/)
 
