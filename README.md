@@ -36,3 +36,7 @@ To support the project follow the donation link:
 
 ### 🔬 [TAI lab](https://github.com/ladooniani/terbinari) 
 
+## Content info
+
+- [Artwork copyright note]( https://github.com/ladooniani/resume-cv/blob/main/img/artwork.txt)
+
