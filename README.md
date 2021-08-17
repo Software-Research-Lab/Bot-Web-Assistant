@@ -38,6 +38,8 @@ To support the project follow the donation link:
 
 ### 🔬 [TAI lab](https://github.com/ladooniani/terbinari) 
 
+<sub>Copyright © 2016-2021 Lado Oniani, TAI Lab. All Rights Reserved<sub>
+
 ## Content info
 
 - [Artwork copyright note]( https://github.com/ladooniani/resume-cv/blob/main/img/artwork.txt)
