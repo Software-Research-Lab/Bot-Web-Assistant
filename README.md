@@ -1,3 +1,13 @@
+ # [Toy Artificial Intelligence lab.](https://ladooniani.github.io/tailab/) 
+ 
+ ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/toy_artificial_intelligence_lab_logo.png)
+
+**Toy Artificial Intelligence\
+Research, innovation and technology development\
+Intelligent systems and robotics laboratory**
+
+#
+
 ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/tai_lab_terbinari_cbm_project_logo.png)
 
 # [Web Assistant](https://ladooniani.github.io/Bot-Web-Assistant/)
