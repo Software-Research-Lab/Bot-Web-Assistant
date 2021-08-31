@@ -1,4 +1,4 @@
-## [Toy Artificial Intelligence lab.](https://ladooniani.github.io/tailab/) 
+# [Toy Artificial Intelligence lab.](https://ladooniani.github.io/tailab/) 
  
 ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/toy_artificial_intelligence_lab_logo.png)
 
