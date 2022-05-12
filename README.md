@@ -2,7 +2,7 @@
  
  <!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/toy_artificial_intelligence_lab_logo.png) --->
  
- [<img alt="TAI lab" width="69px" src="https://github.com/ladooniani/tailab/blob/master/assets/toy_artificial_intelligence_lab_logo.png" />](https://ladooniani.github.io/tailab/) 
+ [<img alt="TAI lab" width="69px" src="https://github.com/ladooniani/tailab/blob/master/assets/tai-logo-mx.png" />](https://ladooniani.github.io/tailab/) 
 
 **Toy Artificial Intelligence\
 Research, innovation and technology development\
@@ -10,9 +10,9 @@ Intelligent systems and robotics laboratory**
 
 #
 
-<!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/tai_lab_terbinari_cbm_project_logo.png) --->
+<!--- ![alt text](https://github.com/ladooniani/tailab/blob/master/assets/tai_lab_terbinari_cbm_project_logo.png)
 
-[<img alt="TAI Lab." width="59px" src="https://github.com/ladooniani/tailab/blob/master/assets/tai_lab_terbinari_cbm_project_logo.png" />](https://github.com/ladooniani/terbinari) 
+[<img alt="TAI Lab." width="59px" src="https://github.com/ladooniani/tailab/blob/master/assets/tai_lab_terbinari_cbm_project_logo.png" />](https://github.com/ladooniani/terbinari)  --->
 
 # [Web Assistant](https://ladooniani.github.io/Bot-Web-Assistant/)
 
