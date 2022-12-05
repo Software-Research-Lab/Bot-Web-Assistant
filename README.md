@@ -16,8 +16,7 @@ Intelligent systems and robotics laboratory**
 
 # [Web Assistant](https://ladooniani.github.io/Bot-Web-Assistant/)
 
-![alt text](https://github.com/ladooniani/resume-cv/blob/main/img/img2.jpg)
-
+ 
 ## Login and registration bot
 
 🔍 Logic and UI model of Interactive dynamic dialog instructing and data processing control with single-field chatbot interface provides guided, sequential data entry and storage to simplify, minimize, modernize and speed up routine in the user interface, just make long registration query form fun =) 😏
