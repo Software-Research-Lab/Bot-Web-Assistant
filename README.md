@@ -37,8 +37,6 @@ To support the project follow the donation link:
   <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" alt="Donate with PayPal" /><br><br>
 </a>
 
---->
-
 ## Lab
 
 ### 🔬 [TAI lab](https://ladooniani.github.io/tailab/) 
@@ -50,4 +48,6 @@ To support the project follow the donation link:
 ## Content info
 
 - [Artwork copyright note]( https://github.com/ladooniani/resume-cv/blob/main/img/artwork.txt)
+
+--->
 
